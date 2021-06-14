@@ -6,11 +6,10 @@ namespace Arrays
     {
        static void Main(string[] args)
         {
-            var name = new string[3];
-            name[0] = "yash";
+            var name = new string[3] { "yash","bash","dash"};
             Console.WriteLine(name[0]);
-            Console.WriteLine("name[1] is ",name[1]);
-            Console.WriteLine("name[2] is ", name[2]);
+            Console.WriteLine(name[1]);
+            Console.WriteLine(name[2]);
         }        
     }
 }
