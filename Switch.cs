@@ -3,7 +3,7 @@ using ControlFlow;
 
 namespace Operations
 {
-    public enum Season
+    public enum Season //keep another file this enum with namesapce
     {
         Winter,
         Summer,
